@@ -1,7 +1,9 @@
-.body {
+body {
   background-color: #ffffff;
   font-family: "Roboto";
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
 }
 .menu-links-web {
   font-family: "Raleway";
@@ -11,6 +13,7 @@
   line-height: 31px;
   color: #2196f3;
 }
+
 .menu-links-studio {
   font-family: "Raleway";
 
@@ -20,51 +23,51 @@
   color: #000000;
 }
 .menu-links-agencja {
-  font-family: "Roboto";
-
-  font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   color: #2196f3;
+}
+.menu-links-agencja:focus,
+.menu-links-agencja:hover {
+  color: green;
 }
 .menu-links-portfolio {
-  font-family: "Roboto";
-
-  font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
 
   color: #212121;
 }
+.menu-links-portfolio:focus,
+.menu-links-portfolio:hover {
+  color: green;
+}
 .menu-links-kontakt {
-  font-family: "Roboto";
-
-  font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #212121;
 }
+.menu-links-kontakt:focus,
+.menu-links-kontakt:hover {
+  color: green;
+}
 .menu-links-mail {
-  font-family: "Roboto";
-
-  font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #2196f3;
 }
-.menu-links-telephone {
-  font-family: "Roboto";
-
-  font-weight: 500;
-  font-size: 14px;
+.menu-links-mail:focus,
+.menu-links-mail:hover {
+  color: green;
+}
+.menu-links-phone {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #757575;
+}
+.menu-links-phone:focus,
+.menu-links-phone:hover {
+  color: green;
 }
 .header-background {
   width: 1600px;
@@ -75,8 +78,6 @@
   background: #2f303a;
 }
 .header-h1 {
-  font-family: "Roboto";
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -99,8 +100,6 @@
   left: 742px;
   top: 440px;
 
-  font-family: "Roboto";
-
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -108,26 +107,20 @@
   color: #ffffff;
 }
 .lorem-ipsum {
-  font-family: "Roboto";
-
   font-weight: 700;
-  font-size: 14px;
+
   line-height: 1.14;
 
   color: #212121;
 }
 .lorem-ipsum-text {
-  font-family: "Roboto";
-
   font-weight: 400;
-  font-size: 14px;
+
   line-height: 1.7;
 
   color: #757575;
 }
 .header-h2 {
-  font-family: "Roboto";
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -135,17 +128,12 @@
   color: #212121;
 }
 .header-h3 {
-  font-family: "Roboto";
-
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 
   color: #212121;
 }
 .team-title {
-  font-family: "Roboto";
-
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -177,29 +165,35 @@
   color: #ffffff;
 }
 .footer-links-address {
-  font-family: "Roboto";
-
   font-weight: 400;
-  font-size: 14px;
+
   line-height: 1.71;
 
   color: #ffffff;
 }
+.footer-links-address:focus,
+.footer-links-address:hover {
+  color: green;
+}
 .footer-links-mail {
-  font-family: "Roboto";
-
   font-weight: 400;
-  font-size: 14px;
+
   line-height: 1.71;
 
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-links-mail:focus,
+.footer-links-mail:hover {
+  color: green;
+}
 .footer-links-phone {
-  font-family: "Roboto";
-
   font-weight: 400;
-  font-size: 14px;
+
   line-height: 1.71;
 
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-links-phone:focus,
+.footer-links-phone:hover {
+  color: green;
 }
