@@ -1,9 +1,207 @@
-body {
+.body {
   width: 1600px;
   height: 2349px;
   background-color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
-links {
+.menu-links-web {
+  font-family: "Raleway";
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
+}
+.menu-links-studio {
+  font-family: "Raleway";
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #000000;
+}
+.menu-links-agencja {
+  font-family: "Roboto";
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #2196f3;
+}
+.menu-links-portfolio {
+  font-family: "Roboto";
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: #212121;
+}
+.menu-links-kontakt {
+  font-family: "Roboto";
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.menu-links-mail {
+  font-family: "Roboto";
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+.menu-links-telephone {
+  font-family: "Roboto";
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.header-background {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
+  background: #2f303a;
+}
+.header-h1 {
+  font-family: "Roboto";
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  color: #ffffff;
+}
+.button-studio {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.button-studio-text {
+  width: 117px;
+  height: 30px;
+  left: 742px;
+  top: 440px;
+
+  font-family: "Roboto";
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: #ffffff;
+}
+.lorem-ipsum {
+  font-family: "Roboto";
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: #212121;
+}
+.lorem-ipsum-text {
+  font-family: "Roboto";
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  color: #757575;
+}
+.header-h2 {
+  font-family: "Roboto";
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+
+  color: #212121;
+}
+.header-h3 {
+  font-family: "Roboto";
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  color: #212121;
+}
+.team-title {
+  font-family: "Roboto";
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+
+  color: #757575;
+}
+.footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
+}
+.footer-links-web {
+  font-family: "Raleway";
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
+}
+.footer-links-studio {
+  font-family: "Raleway";
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  color: #ffffff;
+}
+.footer-links-address {
+  font-family: "Roboto";
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: #ffffff;
+}
+.footer-links-mail {
+  font-family: "Roboto";
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-links-phone {
+  font-family: "Roboto";
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: rgba(255, 255, 255, 0.6);
 }
