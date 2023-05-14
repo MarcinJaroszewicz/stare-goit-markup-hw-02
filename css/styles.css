@@ -94,6 +94,9 @@ ul {
   font-family: var(--font-primary);
   color: var(--color-text-third);
 }
+.cursor {
+  cursor: pointer;
+}
 .lorem-ipsum {
   font-weight: 700;
   line-height: 1.14;
